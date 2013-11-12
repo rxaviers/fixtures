@@ -1,0 +1,11 @@
+{
+    "name": "fixtures",
+    "version": "0.0.1-pre",
+    "devDependencies": {
+        "canjs": "1.1.x",
+        "chai": "1.7.x",
+        "jquery": "1.x.x",
+        "mocha": "1.12.x",
+        "requirejs": "2.1.x"
+    }
+}
