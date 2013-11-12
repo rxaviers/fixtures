@@ -15,7 +15,7 @@ require([
             foo: "bar"
         };
     });
-    console.log("->", JSON.stringify($.get("/foo/bar").always(function() {
-        console.log("get", arguments);
+    console.log("->", JSON.stringify($.get("/foo/bar").always(function(data) {
+        console.log("get", JSON.stringify(data));
     })));
 });
